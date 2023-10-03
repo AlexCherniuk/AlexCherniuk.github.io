@@ -130,7 +130,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Timer 
 
-  const deadline = '2022-12-24';
+  const deadline = '2023-12-24';
   function getTimeRemaining(endtime) {
     const t = Date.parse(endtime) - Date.parse(new Date());
     let days, hours, minutes, seconds;
